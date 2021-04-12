@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/btcexapi/mtproto/internal/encoding/tl"
 	"github.com/pkg/errors"
-	"github.com/xelaj/mtproto/internal/encoding/tl"
 )
 
 type intermediateMode struct {

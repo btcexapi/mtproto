@@ -7,9 +7,9 @@ import (
 	"io"
 	"reflect"
 
+	"github.com/btcexapi/mtproto/internal/encoding/tl"
+	"github.com/btcexapi/mtproto/internal/mtproto/messages"
 	"github.com/pkg/errors"
-	"github.com/xelaj/mtproto/internal/encoding/tl"
-	"github.com/xelaj/mtproto/internal/mtproto/messages"
 )
 
 type Transport interface {

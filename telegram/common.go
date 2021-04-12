@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+// See https://github.com/btcexapi/mtproto/blob/master/LICENSE for details
 
 package telegram
 
@@ -13,8 +13,8 @@ import (
 	"github.com/xelaj/errs"
 	dry "github.com/xelaj/go-dry"
 
-	"github.com/xelaj/mtproto"
-	"github.com/xelaj/mtproto/internal/keys"
+	"github.com/btcexapi/mtproto"
+	"github.com/btcexapi/mtproto/internal/keys"
 )
 
 type Client struct {

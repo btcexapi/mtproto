@@ -1,9 +1,9 @@
 # MTProto
 
 ![help wanted](https://img.shields.io/badge/-help%20wanted-success)
-[![godoc reference](https://pkg.go.dev/badge/github.com/xelaj/mtproto?status.svg)](https://pkg.go.dev/github.com/xelaj/mtproto)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xelaj/mtproto)](https://goreportcard.com/report/github.com/xelaj/mtproto)
-[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/xelaj/mtproto/blob/master/README.md)
+[![godoc reference](https://pkg.go.dev/badge/github.com/btcexapi/mtproto?status.svg)](https://pkg.go.dev/github.com/btcexapi/mtproto)
+[![Go Report Card](https://goreportcard.com/badge/github.com/btcexapi/mtproto)](https://goreportcard.com/report/github.com/btcexapi/mtproto)
+[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/btcexapi/mtproto/blob/master/README.md)
 [![chat telegram](https://img.shields.io/badge/chat-telegram-0088cc)](https://bit.ly/2xlsVsQ)
 ![version v0.1.0](https://img.shields.io/badge/version-v0.1.0-red)
 ![unstable](https://img.shields.io/badge/stability-unstable-yellow)
@@ -18,7 +18,7 @@ gitlab pipelines
 ![FINALLY!](/docs/assets/finally.jpg) Полностью нативная имплементация MTProto на Golang!
 
 
-[english](https://github.com/xelaj/mtproto/blob/main/README.md) **русский** [简体中文](https://github.com/xelaj/mtproto/blob/main/docs/zh_CN/README.md)
+[english](https://github.com/btcexapi/mtproto/blob/main/README.md) **русский** [简体中文](https://github.com/btcexapi/mtproto/blob/main/docs/zh_CN/README.md)
 
 <p align="center">
 <img src="/docs/assets/MuffinMan-AgADRAADO2AkFA.gif"/>
@@ -107,9 +107,9 @@ func main() {
 
 Вам не стоит задумываться о реализации шифрования, обмена ключами, сохранении и восстановлении сессии, все уже сделано за вас.
 
-**Примеры кода [здесь](https://github.com/xelaj/mtproto/blob/master/examples)**
+**Примеры кода [здесь](https://github.com/btcexapi/mtproto/blob/master/examples)**
 
-**Полная документация [здесь](https://pkg.go.dev/github.com/xelaj/mtproto)**
+**Полная документация [здесь](https://pkg.go.dev/github.com/btcexapi/mtproto)**
 
 ## Getting started
 
@@ -118,13 +118,13 @@ func main() {
 Все как обычно, вам необходимо загрузить пакет с помощью `go get`:
 
 ``` bash
-go get github.com/xelaj/mtproto
+go get github.com/btcexapi/mtproto
 ```
 
 Далее по желанию вы можете заново сгенерировать исходники структур методов и функций, для этого используйте команду `go generate`
 
 ``` bash
-go generate github.com/xelaj/mtproto
+go generate github.com/btcexapi/mtproto
 ```
 
 Все! Больше ничего и не надо!
@@ -152,7 +152,7 @@ go generate github.com/xelaj/mtproto
 
 ### Как произвести авторизацию по телефону?
 
-**Пример [здесь](https://github.com/xelaj/mtproto/blob/master/examples/auth)**
+**Пример [здесь](https://github.com/btcexapi/mtproto/blob/master/examples/auth)**
 
 ```go
 func AuthByPhone() {
@@ -181,7 +181,7 @@ func AuthByPhone() {
 
 ### Telegram Deeplinks
 
-Нужно работать с этими стрёмными `tg://` ссылками? Загляните в [пакет `deeplinks`](https://github.com/xelaj/mtproto/blob/main/telegram/deeplinks), вот самый простейший пример:
+Нужно работать с этими стрёмными `tg://` ссылками? Загляните в [пакет `deeplinks`](https://github.com/btcexapi/mtproto/blob/main/telegram/deeplinks), вот самый простейший пример:
 
 ``` go
 package main
@@ -189,7 +189,7 @@ package main
 import (
     "fmt"
 
-    "github.com/xelaj/mtproto/telegram/deeplinks"
+    "github.com/btcexapi/mtproto/telegram/deeplinks"
 )
 
 func main() {
@@ -217,12 +217,12 @@ func main() {
 
 ## Contributing
 
-Please read [contributing guide](https://github.com/xelaj/mtproto/blob/master/doc/en_US/CONTRIBUTING.md) if you want to help. And the help is very necessary!
+Please read [contributing guide](https://github.com/btcexapi/mtproto/blob/master/doc/en_US/CONTRIBUTING.md) if you want to help. And the help is very necessary!
 
 
 ## Критические уязвимости?
 
-Ага, мы стараемся подходить к ним серьезно. Пожалуйста, не создавайте ищью, описывающие ошибку безопасности, это может быть ОЧЕНЬ небезопасно! Вместо этого рекомендуем глянуть на [эту страничку](https://github.com/xelaj/mtproto/blob/main/.github/SECURITY.md) и следовать инструкции по уведомлению.
+Ага, мы стараемся подходить к ним серьезно. Пожалуйста, не создавайте ищью, описывающие ошибку безопасности, это может быть ОЧЕНЬ небезопасно! Вместо этого рекомендуем глянуть на [эту страничку](https://github.com/btcexapi/mtproto/blob/main/.github/SECURITY.md) и следовать инструкции по уведомлению.
 
 ## TODO
 
@@ -255,7 +255,7 @@ Please read [contributing guide](https://github.com/xelaj/mtproto/blob/master/do
 
 <b style="color:red">WARNING!</b> This project is only maintained by Xelaj inc., however copyright of this source code **IS NOT** owned by Xelaj inc. at all. If you want to connect with code owners, write mail to <a href="mailto:up@khsfilms.ru">this email</a>. For all other questions like any issues, PRs, questions, etc. Use GitHub issues, or find email on official website.
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/xelaj/mtproto/blob/master/doc/en_US/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/btcexapi/mtproto/blob/master/doc/en_US/LICENSE.md) file for details
 
 <!--
 
